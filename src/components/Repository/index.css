@@ -1,0 +1,264 @@
+/* Base Styles (Mobile First) */
+.repositoriesContainer {
+  min-height: 90vh;
+  background-color: #0f172a;
+}
+
+.repository-loader-container,
+.repositoryFailureContainer,
+.noDataFoundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.repository-loader-container {
+  height: 80vh;
+}
+
+.repositoryFailureContainer,
+.noDataFoundContainer {
+  height: 90vh;
+  padding: 20px;
+}
+
+.style {
+  color: white;
+}
+
+.repo-no-data-img {
+  height: 50vw;
+  max-height: 250px;
+  width: 50vw;
+  max-width: 250px;
+}
+
+.repo-no-data-heading,
+.repo-no-data-desc,
+.repositorySuccessHeading,
+.noDataHeading {
+  color: #f8fafc;
+}
+
+.repo-no-data-heading,
+.repositorySuccessHeading {
+  font-family: 'HK Grotesk';
+  font-weight: 700;
+  text-align: center;
+}
+
+.repo-no-data-heading {
+  font-size: 5vw;
+  line-height: 6vw;
+}
+
+.repo-no-data-desc {
+  font-family: 'HK Grotesk';
+  font-size: 3vw;
+  line-height: 4vw;
+  text-align: center;
+}
+
+.goto-home-button {
+  height: 5vh;
+  width: 25vw;
+  background-color: #f8fafc;
+  border: none;
+  font-family: 'HK Grotesk';
+  cursor: pointer;
+}
+
+.repositories-success-container {
+  width: 100%;
+  padding: 2% 4%;
+}
+
+.repositorySuccessHeading {
+  font-family: 'HK Grotesk';
+  font-weight: 700;
+  font-size: 6vw;
+  line-height: 8vw;
+  text-align: left;
+}
+
+.repositorySuccessListContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.noDataRepoAnalysisContainer {
+  height: 80vh;
+  width: 100%;
+}
+
+.no-data-image {
+  width: 80vw;
+  max-width: 500px;
+}
+
+.noDataHeading {
+  font-family: 'HK Grotesk';
+  font-size: 5vw;
+  font-weight: 600;
+  line-height: 6vw;
+  text-align: left;
+}
+
+/* Extra Small Devices (Phones in Portrait Mode) */
+@media (max-width: 320px) {
+  .repo-no-data-heading {
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+
+  .repo-no-data-desc {
+    font-size: 2.5vw;
+    line-height: 3.5vw;
+  }
+
+  .goto-home-button {
+    height: 6vh;
+    width: 30vw;
+  }
+}
+
+/* Small Devices (Phones in Landscape Mode) */
+@media (min-width: 321px) and (max-width: 480px) {
+  .repo-no-data-img {
+    height: 60vw;
+    max-height: 300px;
+    width: 60vw;
+    max-width: 300px;
+  }
+
+  .repo-no-data-heading {
+    font-size: 4.5vw;
+    line-height: 5.5vw;
+  }
+
+  .repo-no-data-desc {
+    font-size: 2.8vw;
+    line-height: 4vw;
+  }
+
+  .goto-home-button {
+    height: 6vh;
+    width: 28vw;
+  }
+}
+
+/* Medium Devices (Tablets in Portrait Mode) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .repo-no-data-img {
+    height: 50vw;
+    max-height: 300px;
+    width: 50vw;
+    max-width: 300px;
+  }
+
+  .repo-no-data-heading {
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+
+  .repo-no-data-desc {
+    font-size: 2.5vw;
+    line-height: 3.5vw;
+  }
+
+  .goto-home-button {
+    height: 5vh;
+    width: 25vw;
+  }
+
+  .repositories-success-container {
+    padding: 4% 6%;
+  }
+}
+
+/* Large Devices (Tablets in Landscape Mode and Small Desktops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .repo-no-data-img {
+    height: 40vw;
+    max-height: 350px;
+    width: 40vw;
+    max-width: 350px;
+  }
+
+  .repo-no-data-heading {
+    font-size: 3.5vw;
+    line-height: 4.5vw;
+  }
+
+  .repo-no-data-desc {
+    font-size: 2vw;
+    line-height: 3vw;
+  }
+
+  .repositories-success-container {
+    padding: 5% 8%;
+  }
+
+  .repositorySuccessHeading {
+    font-size: 5vw;
+    line-height: 7vw;
+  }
+}
+
+/* Extra Large Devices (Desktops and Larger Monitors) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .repo-no-data-img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .repo-no-data-heading {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .repo-no-data-desc {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .repositories-success-container {
+    padding: 10px 20px;
+  }
+
+  .repositorySuccessHeading {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+
+/* Large Devices (Wide Desktops and Monitors) */
+@media (min-width: 1441px) {
+  .repo-no-data-img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .repo-no-data-heading {
+    font-size: 36px;
+    line-height: 54px;
+  }
+
+  .repo-no-data-desc {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .repositories-success-container {
+    padding: 10px 30px;
+  }
+
+  .repositorySuccessHeading {
+    font-size: 36px;
+    line-height: 54px;
+  }
+}

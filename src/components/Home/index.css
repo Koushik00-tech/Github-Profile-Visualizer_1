@@ -1,0 +1,297 @@
+.home-container {
+  width: 100%;
+  min-height: 90vh;
+  gap: 0px;
+  opacity: 1;
+  background: #0f172a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+
+.bio {
+  font-family: 'HK Grotesk';
+  font-size: 1.6rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.input-container {
+  width: 90%;
+  max-width: 500px;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.input-search-style {
+  flex: 1;
+  height: 32px;
+  padding: 8px 12px;
+  border-radius: 4px 0px 0px 4px;
+  border: none;
+  background: #1d2537;
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 1rem;
+  line-height: 16px;
+  outline: none;
+}
+
+.search-icon-container {
+  width: 40px;
+  height: 32px;
+  padding: 10px;
+  border-radius: 0px 4px 4px 0px;
+  background: #4f4e4c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon {
+  width: 16px;
+  height: 16px;
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+
+.inputErrorMsg {
+  font-family: 'HK Grotesk';
+  font-size: 1rem;
+  color: #dc2626;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.heading {
+  font-family: 'HK Grotesk';
+  font-size: 2rem;
+  color: #f8fafc;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.homeImage {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 1.5rem;
+}
+
+/* ***** failureView ***** */
+.failureInputContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.failureContainer {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.errorName {
+  font-family: 'HK Grotesk';
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.tryButton {
+  height: 30px;
+  width: 100px;
+  font-family: 'HK Grotesk';
+  font-size: 0.875rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+/* loaderView */
+.loader-container {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* renderGithubDetailsOfProfile */
+.profileDetailsContainer {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 20px;
+}
+
+.avatar-url {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.login {
+  font-family: 'HK Grotesk';
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.name {
+  font-family: 'HK Grotesk';
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+.bio {
+  font-family: 'HK Grotesk';
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.followers-following-public-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.followers-container,
+.following-container,
+.pubic-repos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.followers {
+  font-family: 'HK Grotesk';
+  font-size: 1.25rem;
+  color: #3b82f6;
+}
+
+.followers-heading {
+  font-family: 'HK Grotesk';
+  font-size: 0.875rem;
+  color: #ffffff;
+}
+
+.hor-line {
+  height: 80px;
+  width: 1px;
+  background-color: #64748b;
+}
+
+.bottom-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.company-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.company-heading {
+  font-family: 'HK Grotesk';
+  font-size: 1.25rem;
+  color: #3b82f6;
+}
+
+.companyUrl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.icon-style {
+  color: #ffffff;
+  padding-right: 3px;
+  font-size: 1.25rem;
+}
+
+.company {
+  font-family: 'HK Grotesk';
+  font-size: 0.875rem;
+  color: #ffffff;
+  padding-left: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-container {
+    width: 50%;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .homeImage {
+    height: 300px;
+    width: auto;
+  }
+
+  .bio {
+    width: 40%;
+    font-size: 1rem;
+  }
+
+  .followers-container,
+  .following-container,
+  .pubic-repos-container,
+  .company-container {
+    margin: 20px;
+  }
+}
